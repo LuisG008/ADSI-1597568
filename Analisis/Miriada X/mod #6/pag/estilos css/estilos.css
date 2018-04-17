@@ -1,0 +1,24 @@
+body {
+	background-color: black;
+}
+.A {
+  width: 250px;
+  max-width: 400px;
+  text-align: center;
+  border: solid 1px #c2c2c2;
+  padding-bottom: 10px;
+  margin: auto;
+  background: #152BE5;
+  border-radius: 10px;
+}
+.B {
+	width: 200px;
+	position: relative;
+	left: 25px;
+}
+p {
+	color: white;
+}
+h1 {
+	color: white;
+}

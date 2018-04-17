@@ -1,0 +1,11 @@
+Strat
+
+-	ready uniform
+-	go to take a bath
+-	go to the room
+-	put me uniform
+-	lunch
+-	brush
+-	take the bike
+-	ready to go
+End.

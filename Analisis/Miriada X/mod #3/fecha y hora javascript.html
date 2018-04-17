@@ -1,0 +1,55 @@
+ <!DOCTYPE html><html>
+<head>
+  <title>Modulo 3 entrega obligatoria</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1 id="h1"></h1>
+  <p>Luis Guillermo Sanchez</p>
+  <h2 id="h2">La fecha y la hora son:</h2>
+  <div id="fecha"></div>
+
+  <div id="propiedades">
+<p> La propiedad innerHTML devuelve La fecha y la hora son:
+    <span id="h2p"></span></p>
+<p> La propiedad outerHTML devuelve
+    <span id="h1p"></span></p>
+<p> Propiedad global de location.href es
+    <span id="href"></span></p>
+<p> Propiedad global de location es
+    <span id="ruta"></span></p>
+<p> Propiedad global pantalla.alto
+    <span id="alto"></span></p>
+<p>
+    Propiedad global patanlla.ancho <span id="ancho"></span> </p> 
+</div>
+
+ <script type="text/javascript">
+  var fecha = new Date();
+  var msj;
+
+  if      (fecha.getHours() < 7)  { msj = "Buenas noches";}
+  else if (fecha.getHours() < 12) { msj = "Buenos días";}
+  else if (fecha.getHours() < 21) { msj = "Buenas tardes";}
+  else                                          { msj = "Buenas noches";}
+
+  document.getElementById("h1").innerHTML    = msj;
+
+  document.getElementById("fecha").innerHTML = fecha;
+
+       var h1outer = document.getElementById("h1").outerHTML.replace(/</g,"&lt;",/>/g,"&gt;");
+       var ah = document.getElementById("h1p");
+       ah.innerHTML = h1outer;
+       var f = document.getElementById("href");
+       f.innerHTML = window.location.href;
+       var l = document.getElementById("ruta");
+       l.innerHTML = window.location;
+
+       var w = document.getElementById("alto")
+       w.innerHTML = screen.width;
+       var h = document.getElementById("ancho")
+       h.innerHTML = screen.height;
+
+</script>
+</body>
+</html>

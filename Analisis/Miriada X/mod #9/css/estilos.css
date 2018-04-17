@@ -1,0 +1,54 @@
+body{
+	font-family: 'Droid Sans', 'Helvetica', Arial, sans-serif;
+}
+			
+#titulo {
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 0px:
+	left: 100px;
+}
+			
+.derecha {
+	text-align: left;
+	width: 49.5%;
+	display: inline-block;
+	height:28px;
+}
+			
+.izquierda {
+	text-align: right;
+	width: 49.5%;
+	display: inline-block;
+	height:28px;
+}
+			
+#compact {
+	width: 30px;
+	height: 30px;
+	cursor:pointer;
+}
+			
+#latlng{
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute; /* posición absoluta a navegador */
+	top: 0px;           /* ajusta a borde de navegador */
+	left: 0px;
+	right: 0px;
+	height: 50px;
+}
+			
+#map{
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute; /* posición absoluta a navegador */
+	top: 70px;      /* 0px debajo de borde de navegador */
+	left: 0px;        /* ajusta a borde de navegador */
+	right: 0px;
+	bottom: 0px;
+	background: rgba(0,255,0,0.5); /* verde si no hay mapa */
+}

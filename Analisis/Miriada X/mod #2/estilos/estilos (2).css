@@ -1,0 +1,38 @@
+h1 {
+	font-family: 'Lobster', cursive;
+    background: #000;
+    color:#63E31F;
+    }
+h2 {
+	font-family: 'Pacifico', cursive;
+	background: #000;
+	width:600px;
+	color:#3F9213;
+    position: relative;
+    top: -200px;
+    }
+h3 {
+	background: #000;
+	width:200px;
+	color:#3F9213;
+        position: relative;
+    top: -200px;
+    }
+p {
+	background: #000;
+	color: white;
+    }
+h4 {
+	font-size: 30px;
+	background: #000;
+	width:200px;
+	color:#3F9213;
+    }
+div {
+
+    border: 5px solid black;
+    border-radius: 24px;
+    }
+body {background: -prefix-linear-gradient(top, #0A26EE, #3AEE0A);
+	 background: linear-gradient(to bottom, #0A26EE, #3AEE0A);
+    }

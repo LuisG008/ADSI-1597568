@@ -1,0 +1,20 @@
+Inicio
+
+-	Despertar
+
+-	Levantarse
+
+-	Colocarse las chanclas
+
+-	Caminar hasta el baño
+
+-	Orinar
+
+-	Enjuagarse las manos
+
+-	Caminar hasta la habitación
+
+-	Quitarse las chanclas
+
+-	Acostarse de nuevo 
+Fin.

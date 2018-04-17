@@ -1,0 +1,10 @@
+Start
+
+-	go to store
+
+-	ask the ice cream
+
+-	pay the ice cream
+
+-	suck ice cream 
+End.

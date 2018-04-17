@@ -1,0 +1,21 @@
+Inicio
+-	Ir a la cocina
+
+-	Encender la estufa
+
+-	Calentar el aceite en un sartén encima de la estufa
+
+-	Quebrar el cascarón del huevo en sima del sartén
+
+-	Echarle una pisca de sal
+
+-	Revolver con una cuchara
+
+-	Apagar la estufa
+
+-	Servir el huevo en un plato
+
+-	Llevar el plato hasta el comedor
+
+-	Comer el huevo con una cuchara 
+Fin.
